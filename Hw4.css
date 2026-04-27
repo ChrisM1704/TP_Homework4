@@ -1,0 +1,284 @@
+ body{background-color: rgb(53, 141, 193);
+}
+  h1 {color: beige;
+font-family: inherit;
+font-weight: bold;
+}
+label{
+    font-weight: bold;
+    font-family: inherit;
+}
+Input{
+    font-family: inherit;
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+textarea{
+    font-family: inherit;
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+select {
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+input[type="range"]{
+    accent-color: black;
+    font-family: inherit;
+    
+}
+#footer{
+    margin-top: 600px;
+}
+#Thankyou{
+    font-size: 30px;
+    color: beige;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+.pass-message{
+    text-align: right;
+    font-family: inherit;
+    font-weight: bold;
+    position:relative;
+    left: -80px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+#review{
+    margin-top: 5px;
+}
+table.output,
+tr.output,
+td.output{
+    width:10px;
+    background-color: beige;
+    padding: 50px;
+    border-spacing: 20px;
+    border-radius: 10px;
+    color:black
+}
+td.outputdata{
+    width: 500px;
+    background-color: rgb(53, 141, 193);
+    padding: 50px;
+    border-spacing: 2px;
+}
+#alert-box{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#alert-content{
+    background-color: beige;
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+#alert-content h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+}
+#close-alert{
+    background-color: beige;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: inherit;
+}
+#emoji{
+    align-items: center;
+    font-size: 200px;
+    justify-content: center;
+    display: flex;
+}    body{background-color: rgb(53, 141, 193);
+}
+  h1 {color: beige;
+font-family: inherit;
+font-weight: bold;
+}
+label{
+    font-weight: bold;
+    font-family: inherit;
+}
+Input{
+    font-family: inherit;
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+textarea{
+    font-family: inherit;
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+select {
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+}
+input[type="range"]{
+    accent-color: black;
+    font-family: inherit;
+    
+}
+#footer{
+    margin-top: 600px;
+  
+   
+}
+#Thankyou{
+    font-size: 30px;
+    color: beige;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+.pass-message{
+    text-align: right;
+    font-family: inherit;
+    font-weight: bold;
+    position:relative;
+    left: -80px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+#review{
+    margin-top: 5px;
+}
+table.output,
+tr.output,
+td.output{
+    width:10px;
+    background-color: beige;
+    padding: 50px;
+    border-spacing: 20px;
+    border-radius: 10px;
+    color:black
+}
+td.outputdata{
+    width: 500px;
+    background-color: rgb(53, 141, 193);
+    padding: 50px;
+    border-spacing: 2px;
+}
+#alert-box{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#alert-content{
+    background-color: beige;
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+#alert-content h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+}
+#close-alert{
+    background-color: beige;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: inherit;
+}
+#emoji{
+    align-items: center;
+    font-size: 200px;
+    justify-content: center;
+    display: flex;
+}   
+
+
+#contactus{
+    display: flex;
+    gap: 10px;
+}
+   #contactus input{
+    padding: 5px 5px;
+    font-size: 14px;
+    height: min-content;
+    line-height: normal;
+    flex: none;
+   }
