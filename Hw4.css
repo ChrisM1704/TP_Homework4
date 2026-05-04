@@ -1,4 +1,17 @@
- body{background-color: rgb(53, 141, 193);
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(53, 141, 193) ;
+    transition: background-color 0.4 ease-in-out;
+    z-index: 1000;
+}
+header.scrolled{
+    background-color: rgb(53, 141, 193);
+    opacity: 1.0;
+}
+
+body{background-color: rgb(53, 141, 193);
 }
   h1 {color: beige;
 font-family: inherit;
@@ -281,4 +294,36 @@ td.outputdata{
     height: min-content;
     line-height: normal;
     flex: none;
+   }
+
+   .iframe-container {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+   }
+
+   .iframe-container iframe { 
+    width: 95%;
+    height: 20%;
+    border: 1px solid black;
+   }
+
+   #welcome{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
+   }
+
+   #welcome2 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: normal;
    }
