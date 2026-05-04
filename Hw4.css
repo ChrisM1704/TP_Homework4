@@ -44,7 +44,9 @@ input[type="range"]{
     
 }
 
-
+#footer {
+    margin-top: auto;
+}
 #Thankyou{
     font-size: 30px;
     color: beige;
