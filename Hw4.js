@@ -530,7 +530,7 @@ function submitFormWithFetch() {
     .then(result => {
         console.log("Form submitted successfully:", result);
 
-        window.location.href = "thankyou4.html";
+        window.location.href = "Hw4ThankYou.html";
     })
     .catch(error => {
         console.error("Submission error:", error);
