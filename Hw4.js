@@ -502,3 +502,38 @@ document.addEventListener("DOMContentLoaded", function () {
         deleteAllCookies();
     }
 });
+
+document.getElementById("signup").addEventListener("submit", function(e)
+{
+    e.preventDefault();
+
+    if(!validateEverything())
+    {
+        showAlert();
+        return;
+    }
+    submitFormWithFetch();
+});
+
+function submitFormWithFetch() {
+    const form = document.getElementById("signup");
+    const formData = new FormData(form);
+
+    const data = Object.fromEntries(formData.entries());
+
+    fetch("https://jsonplaceholder.typicode.com/posts", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result => {
+        console.log("Form submitted successfully:", result);
+
+        window.location.href = "thankyou4.html";
+    })
+    .catch(error => {
+        console.error("Submission error:", error);
+        showAlert();
+    });
+}
