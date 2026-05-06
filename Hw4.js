@@ -402,6 +402,7 @@ if (!validateZip()){
     submitButton.disabled = true;
     showAlert();
   }
+  return valid;
 }
 
 function setCookie(name, cvalue, expiryDays) {
