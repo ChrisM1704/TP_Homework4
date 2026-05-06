@@ -1,4 +1,4 @@
-header {
+.header {
     position: sticky;
     top: 0;
     width: 100%;
@@ -43,6 +43,7 @@ input[type="range"]{
     font-family: inherit;
     
 }
+
 
 #Thankyou{
     font-size: 30px;
@@ -295,17 +296,17 @@ td.outputdata{
 
    .iframe-container {
     position: absolute;
-    top: 25%;
+    top: 40%;
     right: 15px;
     width: 25%;
-    height: 100%;
+    height: 70%;
     overflow: hidden;
     box-sizing: border-box;
    }
 
    .iframe-container iframe { 
     width: 95%;
-    height: 20%;
+    height: 125%;
     border: 1px solid black;
    }
 
@@ -315,6 +316,7 @@ td.outputdata{
     text-align: center;
     font-family: inherit;
     font-weight: normal;
+    
    }
 
    #welcome2 {
